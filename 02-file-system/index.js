@@ -9,6 +9,9 @@ const fileOperation = async () => {
     try {
         const data = await fsPromises.readFile(path.join(__dirname, 'files', 'starter.txt'), 'utf8');
         console.log(data.toString());
+        // Delete the file if it exists
+        await fsPromises.unlink(path.join(__dirname, 'files', 'starter.txt'));
+
         await fsPromises.writeFile(path.join(__dirname, 'files', 'promiseText.txt'), data);
         await fsPromises.appendFile(path.join(__dirname, 'files', 'promiseText.txt'), "\n\nNice to meet you fam.");
         await fsPromises.rename(path.join(__dirname, 'files', 'promiseText.txt'), path.join(__dirname, 'files', 'promiseCompleted.txt'));
