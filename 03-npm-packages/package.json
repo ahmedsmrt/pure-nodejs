@@ -1,0 +1,27 @@
+{
+  "name": "03-npm-packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedsmrt/pure-nodejs.git"
+  },
+  "author": "Ahmed Gasim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedsmrt/pure-nodejs/issues"
+  },
+  "homepage": "https://github.com/ahmedsmrt/pure-nodejs#readme",
+  "description": "",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
