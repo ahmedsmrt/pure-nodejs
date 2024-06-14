@@ -54,3 +54,15 @@ Message: /	GET	200
 Date and time is: 2024-06-12	23:49:36
 ID: ed0f1413-312d-45a3-95f0-6cb49e3c8ef9
 Message: /css/style.css	GET	200
+
+Date and time is: 2024-06-13	23:02:15
+ID: cd31df3f-d647-463c-a601-a445f5e62143
+Message: /	GET	200
+
+Date and time is: 2024-06-13	23:02:15
+ID: ac410630-2c58-411d-8cb1-7a0fdf738fbe
+Message: /css/style.css	GET	200
+
+Date and time is: 2024-06-13	23:02:15
+ID: bb198443-0a94-497a-b917-8a31206c86c9
+Message: /favicon.ico	GET	200
