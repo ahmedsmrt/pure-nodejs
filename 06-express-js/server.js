@@ -4,9 +4,9 @@ const path = require('path');
 const PORT = process.env.PORT || 3500;
 
 const routeOne = '/';
-const altRouteOne = '/index.html';
+const altRouteOne = '/index';
 const regEx = (route, altRoute) => {
-    return `^${route}$|${altRoute}`;
+    return `^${route}$|${altRoute}(.html)?`;
 };
 
 
