@@ -1,0 +1,56 @@
+
+Date and time is: 2024-06-12	23:46:32
+ID: e58f1ba3-33d8-495b-9c2d-be34b0e5202b
+Message: /new-page.html	GET	200
+
+Date and time is: 2024-06-12	23:46:32
+ID: e8ae4356-2fb6-4358-9e43-5dd8aea0487f
+Message: /css/style.css	GET	200
+
+Date and time is: 2024-06-12	23:46:32
+ID: 75438a22-8f28-4471-8ff5-850fc5121d16
+Message: /img/img1.jpg	GET	200
+
+Date and time is: 2024-06-12	23:48:19
+ID: b2593cf9-d9d9-4f47-ab11-9f036158ec00
+Message: /new-page.html	GET	200
+
+Date and time is: 2024-06-12	23:48:59
+ID: 0e9634cf-7075-4124-8e5f-084d8050f3e5
+Message: /new-page.html	GET	200
+
+Date and time is: 2024-06-12	23:48:59
+ID: 6c421d94-f2eb-47e4-82c4-48bf241b4460
+Message: /css/style.css	GET	200
+
+Date and time is: 2024-06-12	23:48:59
+ID: e75c627e-0650-4683-9883-ede546a94a75
+Message: /img/img1.jpg	GET	200
+
+Date and time is: 2024-06-12	23:49:10
+ID: 30bc4e14-e68f-4e74-a634-98649926ef47
+Message: /new-page.html	GET	200
+
+Date and time is: 2024-06-12	23:49:10
+ID: 4470c7de-e2fa-48de-b921-15dacc32d6ea
+Message: /css/style.css	GET	200
+
+Date and time is: 2024-06-12	23:49:10
+ID: 9501f9e5-7552-457b-a752-546f50ecc3ea
+Message: /img/img1.jpg	GET	200
+
+Date and time is: 2024-06-12	23:49:17
+ID: 98ef6993-92d9-450d-8951-7bd7eee9441d
+Message: /old	GET	200
+
+Date and time is: 2024-06-12	23:49:17
+ID: 9db58336-6e91-4b59-869c-a66226ee10a2
+Message: /css/style.css	GET	200
+
+Date and time is: 2024-06-12	23:49:36
+ID: f37f4b7f-2ae3-427f-ae22-d90b6dd81d86
+Message: /	GET	200
+
+Date and time is: 2024-06-12	23:49:36
+ID: ed0f1413-312d-45a3-95f0-6cb49e3c8ef9
+Message: /css/style.css	GET	200
