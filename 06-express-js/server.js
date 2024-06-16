@@ -9,6 +9,23 @@ const regEx = (route, altRoute) => {
     return `^${route}$|${altRoute}(.html)?`;
 };
 
+const one = (req, res, next) => {
+    console.log('Attempted to load html for one');
+    next();
+};
+
+const two = (req, res, next) => {
+    console.log('Attempted to load html for two');
+    next();
+};
+
+const three = (req, res) => {
+    console.log('Attempted to load html for three');
+    res.send('Hello World');
+};
+
+app.get('/chain(.html)?', [one, two, three]); // This is a route chain that will execute the middleware functions in order. The last function in the chain should be the route handler.
+
 
 // Define first route - it's also good to note that express accepts regular expressions which can be used to match routes. This is an amazing way to set up regex helper functions and then use them for different use cases in your routes.
 app.get(`${regEx(routeOne, altRouteOne)}`, (req, res) => {
