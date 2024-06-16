@@ -23,9 +23,21 @@ app.get('/old-page(.html)?', (req, res) => {
     res.redirect(301, '/new-page(.html)?'); //Returns 302 by default
 });
 
-app.get('/*', (req, res) => {
-
+// Route Handlers
+app.get('/hello(.html)?', (req, res, next) => {
+    console.log('Attempted to load html');
+    next();
+}, (req, res) => {
+    res.send('Hello World');
 });
+
+
+
+app.get('/*', (req, res) => {
+    res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
+});
+
+
 
 app.listen(PORT, () => {
     console.log(`This Server jawn is running on port ${PORT}`);
