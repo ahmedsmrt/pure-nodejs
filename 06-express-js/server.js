@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const PORT = process.env.PORT || 3500;
+app.use(express.json()); // This middleware is essential
 
 const routeOne = '/';
 const altRouteOne = '/index';
@@ -41,9 +42,22 @@ app.get('/old-page(.html)?', (req, res) => {
 });
 
 // adding a post request
-app.post('/api/auth/register', (req, res) => {
-    const { email, password} = req.body;
-})
+app.post('/api/auth/register', async (req, res) => {
+    try {
+        const { email, password } = req.body;
+        console.log('Received email:', email);
+        console.log('Received password:', password);
+
+        // Example registration logic
+        // const hashedPassword = await bcrypt.hash(password, 10);
+        // const user = await User.create({ email, password: hashedPassword });
+
+        res.status(201).send('User registered successfully');
+    } catch (error) {
+        console.error('Error occurred:', error);
+        res.status(500).send('Server Error occurred');
+    }
+});
 
 
 // Route Handlers
