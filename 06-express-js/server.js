@@ -40,6 +40,12 @@ app.get('/old-page(.html)?', (req, res) => {
     res.redirect(301, '/new-page(.html)?'); //Returns 302 by default
 });
 
+// adding a post request
+app.post('/api/auth/register', (req, res) => {
+    const { email, password} = req.body;
+})
+
+
 // Route Handlers
 app.get('/hello(.html)?', (req, res, next) => {
     console.log('Attempted to load html');
