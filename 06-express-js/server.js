@@ -2,8 +2,19 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const PORT = process.env.PORT || 3500;
-app.use(express.json()); // This middleware is essential
 
+// Built in middleware to handle urlencoded data,
+// in other words form data
+//  content-type: application/x-www-form-urlencoded
+app.use(express.urlencoded({ extended: false }));
+
+// This middleware is essential for handling json data
+app.use(express.json());
+
+// This middleware serves static files such as images, css, js, etc. from the public directory
+app.use(express.static(path.join(__dirname, '/public')));
+
+// Middleware
 const routeOne = '/';
 const altRouteOne = '/index';
 const regEx = (route, altRoute) => {
