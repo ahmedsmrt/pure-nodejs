@@ -13,14 +13,21 @@ const logEvents = async (message, logName) => {
     console.log(logItem);
 
     try {
-        if (!fs.existsSync(path.join(__dirname, 'logs'))) {
-            await fs.mkdirSync(path.join(__dirname, 'logs'));
+        if (!fs.existsSync(path.join(__dirname, '..', 'logs'))) {
+            await fs.mkdirSync(path.join(__dirname, '..', 'logs'));
         }
-        await fsPromises.appendFile(path.join(__dirname, 'logs', logName), logItem);
+        await fsPromises.appendFile(path.join(__dirname, '..', 'logs', logName), logItem);
     } catch (error) {
         console.log(error)
     }
 
 }
 
-module.exports = logEvents;
+
+const logger = (req, res, next) => {
+    logEvents(`${req.method}\t${req.headers.origin}\t${res.url}\n`, 'reqLog.txt');
+    console.log('Request made to:', req.url);
+    next();
+}
+
+module.exports = { logEvents, logger };

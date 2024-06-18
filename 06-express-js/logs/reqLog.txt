@@ -66,3 +66,158 @@ Message: /css/style.css	GET	200
 Date and time is: 2024-06-13	23:02:15
 ID: bb198443-0a94-497a-b917-8a31206c86c9
 Message: /favicon.ico	GET	200
+
+Date and time is: 2024-06-17	20:09:38
+ID: c89641d3-4f78-46c8-bc80-3e51d1135b81
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:09:38
+ID: dbf816dc-e3cc-4cf8-b013-92c9bdf8a399
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:11:44
+ID: 1f5f238e-05cd-4689-9658-471265081385
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:11:44
+ID: 81577ccf-bb51-41a5-8b43-8950207318d3
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:12:18
+ID: b5dc794e-8184-40b4-9dd5-1ba709878c12
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:12:18
+ID: 05f71774-6ce7-4cfb-b58c-7906cc01d85c
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:12:50
+ID: fbe50cc0-15ff-45a6-9434-e9ecb226e9a7
+Message: OPTIONS	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:12:50
+ID: 017f604d-ae26-4979-95b4-eeab1baddc89
+Message: GET	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:15:32
+ID: 0c3a400e-6d34-4262-bc12-9f57624ae953
+Message: OPTIONS	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:15:32
+ID: 055b02ea-7bad-4c09-ae42-3e66a94c1357
+Message: GET	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:16:11
+ID: 0af2e9e0-2303-4b6d-982d-6fcb15da9cc3
+Message: OPTIONS	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:16:11
+ID: 7c4289d4-20e3-4699-bf6c-81b14dc21d16
+Message: GET	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:17:29
+ID: 538794fe-fb0e-46b0-8c4a-34eee6b7b896
+Message: OPTIONS	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:17:29
+ID: c3894348-811e-4504-88ee-3d729f457c2a
+Message: GET	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:21:31
+ID: e5845fd9-b0b4-41af-b4fb-72487afb63d5
+Message: OPTIONS	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:21:31
+ID: 0ae3e23d-ddd5-4f0d-ad0b-adf9d6cb8a9a
+Message: GET	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:21:55
+ID: 06eded39-17d6-4c18-84ff-09d586783589
+Message: OPTIONS	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:21:55
+ID: 101202c5-bd32-4d8e-82bd-a286d0786374
+Message: GET	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:23:02
+ID: db9608af-a889-4698-a490-cdc9e2ddeed9
+Message: OPTIONS	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:23:02
+ID: 6c5f17df-54e9-47d3-b2e9-fbdeaae7e532
+Message: GET	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:25:27
+ID: 45afcc62-65bb-4dfe-be62-489719256135
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:26:24
+ID: 1f54b7ca-b2a5-43a7-bf95-fc145dd215cf
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:26:24
+ID: 4774576f-5896-493c-9ced-25513e4036f3
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:30:10
+ID: 7eaff0ed-da9a-421d-a58c-2404b16333bd
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:30:45
+ID: d81de7a4-0f00-42db-abd7-1591055ebff2
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:30:56
+ID: 843693bd-6505-424f-97fe-969962ceb662
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:30:56
+ID: b454a746-a50e-4730-8938-bd21466a4928
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:32:23
+ID: 7adb1eef-1082-433f-a444-bf09c17a4d47
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:32:23
+ID: 8ab51499-c126-4415-a7b4-d98c115b677c
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:34:58
+ID: 1a825aa2-0f0c-496d-a044-5d481e227dfd
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:34:58
+ID: 2115b7c2-c521-489e-80ae-58ecd8a7422b
+Message: GET	undefined	undefined
+

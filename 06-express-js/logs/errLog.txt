@@ -2,3 +2,11 @@
 Date and time is: 2024-06-12	23:48:19
 ID: 06259315-6e47-4a6e-9d8b-14ee9643e4a7
 Message: TypeError: fsPromises.readFil is not a function - Status Code:200
+
+Date and time is: 2024-06-17	20:30:10
+ID: d12d89d8-f07f-4c5d-b0b1-9bb018171dbe
+Message: Error: Not allowed by CORS - Status Code:200
+
+Date and time is: 2024-06-17	20:30:45
+ID: aa1218a5-d2cd-4d4b-9a23-d9167a859413
+Message: Error: Not allowed by CORS - Status Code:200
