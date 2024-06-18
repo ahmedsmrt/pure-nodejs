@@ -66,3 +66,43 @@ Message: /css/style.css	GET	200
 Date and time is: 2024-06-13	23:02:15
 ID: bb198443-0a94-497a-b917-8a31206c86c9
 Message: /favicon.ico	GET	200
+
+Date and time is: 2024-06-17	20:09:38
+ID: c89641d3-4f78-46c8-bc80-3e51d1135b81
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:09:38
+ID: dbf816dc-e3cc-4cf8-b013-92c9bdf8a399
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:11:44
+ID: 1f5f238e-05cd-4689-9658-471265081385
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:11:44
+ID: 81577ccf-bb51-41a5-8b43-8950207318d3
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:12:18
+ID: b5dc794e-8184-40b4-9dd5-1ba709878c12
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:12:18
+ID: 05f71774-6ce7-4cfb-b58c-7906cc01d85c
+Message: GET	undefined	undefined
+
+
+Date and time is: 2024-06-17	20:12:50
+ID: fbe50cc0-15ff-45a6-9434-e9ecb226e9a7
+Message: OPTIONS	https://www.google.com	undefined
+
+
+Date and time is: 2024-06-17	20:12:50
+ID: 017f604d-ae26-4979-95b4-eeab1baddc89
+Message: GET	https://www.google.com	undefined
+
