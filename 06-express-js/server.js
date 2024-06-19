@@ -33,7 +33,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // This middleware serves static files such as images, css, js, etc. from the public directory
-app.use(express.static(path.join(__dirname, '/public')));
+app.use('/', express.static(path.join(__dirname, '/public')));
+app.use('/subdir', express.static(path.join(__dirname, '/public')));
+
+
+
+app.use('/subdir', require('./routes/subDir'));
+
 
 // Middleware
 const routeOne = '/';
