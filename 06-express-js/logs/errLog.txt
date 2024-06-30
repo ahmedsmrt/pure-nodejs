@@ -10,3 +10,7 @@ Message: Error: Not allowed by CORS - Status Code:200
 Date and time is: 2024-06-17	20:30:45
 ID: aa1218a5-d2cd-4d4b-9a23-d9167a859413
 Message: Error: Not allowed by CORS - Status Code:200
+
+Date and time is: 2024-06-29	22:44:59
+ID: ee9d5015-2fd4-49f1-9433-4d1802088dd9
+Message: ReferenceError: id is not defined - Status Code:200
