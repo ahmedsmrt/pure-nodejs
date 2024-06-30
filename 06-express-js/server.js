@@ -33,14 +33,14 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // This middleware serves static files such as images, css, js, etc. from the public directory
-app.use(express.static(path.join(__dirname, '/public')));
+app.use('/', express.static(path.join(__dirname, '/public')));
+app.use('/subdir', express.static(path.join(__dirname, '/public')));
 
-// Middleware
-const routeOne = '/';
-const altRouteOne = '/index';
-const regEx = (route, altRoute) => {
-    return `^${route}$|${altRoute}(.html)?`;
-};
+
+app.use('/', require('./routes/root'));
+app.use('/subdir', require('./routes/subDir'));
+
+
 
 const one = (req, res, next) => {
     console.log('Attempted to load html for one');
@@ -60,18 +60,7 @@ const three = (req, res) => {
 app.get('/chain(.html)?', [one, two, three]); // This is a route chain that will execute the middleware functions in order. The last function in the chain should be the route handler.
 
 
-// Define first route - it's also good to note that express accepts regular expressions which can be used to match routes. This is an amazing way to set up regex helper functions and then use them for different use cases in your routes.
-app.get(`${regEx(routeOne, altRouteOne)}`, (req, res) => {
-    // res.sendFile('./views/index.html', { root: __dirname });
-    res.sendFile(path.join(__dirname, 'views', 'index.html'));
-});
 
-app.get('/new-page(.html)?', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'new-page.html'));
-});
-app.get('/old-page(.html)?', (req, res) => {
-    res.redirect(301, '/new-page(.html)?'); //Returns 302 by default
-});
 
 // adding a post request
 app.post('/api/auth/register', async (req, res) => {
