@@ -1,6 +1,7 @@
-const data = {};
-// mimicking connecting to a database
-data.employees = require('../models/employee.json');
+const data = {
+    employees: require('../models/employee.json'),
+    setEmployees: function (data) {this.employees = data}
+};
 
 const getAllEmployees = (req, res) => {
     res.json(data.employees)
