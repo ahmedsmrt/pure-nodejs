@@ -16,13 +16,4 @@ router.get(`${regEx(routeOne, altRouteOne)}`, (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'views', 'index.html'));
 });
 
-router.get('/new-page', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'views', 'new-page.html'));
-});
-router.get('/old-page(.html)?', (req, res) => {
-    res.redirect(301, '/new-page.html'); //Returns 302 by default
-});
-
-
-
 module.exports = router;
