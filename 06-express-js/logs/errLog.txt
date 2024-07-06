@@ -14,3 +14,7 @@ Message: Error: Not allowed by CORS - Status Code:200
 Date and time is: 2024-06-29	22:44:59
 ID: ee9d5015-2fd4-49f1-9433-4d1802088dd9
 Message: ReferenceError: id is not defined - Status Code:200
+
+Date and time is: 2024-07-06	10:48:14
+ID: 7d6cbf18-f888-486f-a1ba-1b884037bdba
+Message: SyntaxError: Unexpected token } in JSON at position 29 - Status Code:200
