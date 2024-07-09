@@ -1,6 +1,1 @@
-[
-    {
-        "username": "sabrthruit",
-        "password": "$2b$10$nySFjnqZuBC.fLAkyZhi5uD1a4iadx8xQm8Ci9K4VmO4yablQqZPe"
-    }
-]
+[{"username":"sabrthruit","password":"$2b$10$nySFjnqZuBC.fLAkyZhi5uD1a4iadx8xQm8Ci9K4VmO4yablQqZPe"},{"username":"sabrthruit","password":"$2b$10$nySFjnqZuBC.fLAkyZhi5uD1a4iadx8xQm8Ci9K4VmO4yablQqZPe","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhYnJ0aHJ1aXQiLCJpYXQiOjE3MjA0OTQ1MzQsImV4cCI6MTcyMDU4MDkzNH0.wNMEHsp5OkJGkAsbUxejDJEfA_sry7Cqxd6guj2rMOY"}]
